@@ -79,3 +79,20 @@
     background: transparent;
     border: 2px solid var(--color-secundary-light);
 }
+
+@media (max-width: 500px) {
+    .members-container .member {
+        flex-direction: column;
+    }
+
+    .members-container .member .member-img {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .members-container .member .member-info {
+        margin: 0 auto;
+        max-width: 95%;
+    }
+}

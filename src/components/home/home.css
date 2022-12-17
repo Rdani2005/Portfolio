@@ -193,3 +193,9 @@
 .scroll-down .scroll {
     transform: rotate(-90deg);
 }
+
+@media (max-width: 500px) {
+    .scroll-down {
+        display: none;
+    }
+}

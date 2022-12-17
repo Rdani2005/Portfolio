@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import img from '../props/me.jpg'
 import { BsMouse } from 'react-icons/bs'
 import Buttons from '../button/button'
 import './home.css'
 function Home() {
+
+    let [open, setOpen] = useState(false)
+
+
     return (
         <div id='home' className="container home-container">
             <div className="logo">
-                <div className="main-img">
+                <div className={`main-img ${open ? 'active' : ''}`} onClick={() => {setOpen(!open)}}>
+                    <span className="circle"></span>
                     <span className="circle"></span>
                     <span className="circle"></span>
                     <span className="circle"></span>
