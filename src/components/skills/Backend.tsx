@@ -16,21 +16,21 @@ const Backend: FC = (): JSX.Element => (
                     <i className="bx bx-badge-check"></i>
                     <div className="">
                         <h3 className="skills__name">Java</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
                         <h3 className="skills__name">C#</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
-                        <h3 className="skills__name">PHP</h3>
-                        <span className="skills__level">Basic</span>
+                        <h3 className="skills__name">Microservices</h3>
+                        <span className="skills__level">Advanced</span>
                     </div>
                 </div>
                 <div className="skills__data">
@@ -56,27 +56,15 @@ const Backend: FC = (): JSX.Element => (
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
+
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
-                        <h3 className="skills__name">PostgreSQL</h3>
-                        <span className="skills__level">Advanced</span>
-                    </div>
-                </div>
-                <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
-                    <div className="">
-                        <h3 className="skills__name">SQL Server</h3>
+                        <h3 className="skills__name">SQL</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>
-                <div className="skills__data">
-                    <i className="bx bx-badge-check"></i>
-                    <div className="">
-                        <h3 className="skills__name">MySQL</h3>
-                        <span className="skills__level">Advanced</span>
-                    </div>
-                </div>
+
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">

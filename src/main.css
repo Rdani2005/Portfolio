@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /* ================ CSS VARIABLES ============ */
 :root {
     --header-height: 3rem;
@@ -45,10 +45,9 @@
     --z-modal: 1000;
 }
 
-
 /* Responsive Typography */
 @media screen and (max-width: 992px) {
-    :root{
+    :root {
         --big-font-size: 2.75rem;
         --h1-font-size: 1.5rem;
         --h2-font-size: 1.25rem;
@@ -69,15 +68,16 @@
 
 html {
     scroll-behavior: smooth;
+    scrollbar-color: var(--title-color) var(--body-color);
+    scrollbar-width: thin;
 }
-
 
 body,
 button,
 input,
 textarea {
     font-family: var(--body-font);
-    font-size:  var(--normal-font-size);
+    font-size: var(--normal-font-size);
 }
 
 body {
@@ -85,7 +85,9 @@ body {
     color: var(--text-color);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
 }
@@ -97,7 +99,6 @@ ul {
 a {
     text-decoration: none;
 }
-
 
 button {
     cursor: pointer;
@@ -122,16 +123,14 @@ img {
 
 .section__subtitle {
     display: block;
-    font-size: var(--small-font-size); 
-    margin-bottom: 4rem;  
+    font-size: var(--small-font-size);
+    margin-bottom: 4rem;
 }
 
-
-.section__title, 
+.section__title,
 .section__subtitle {
     text-align: center;
 }
-
 
 /* ============= LAYOUT ================ */
 .container {
@@ -154,7 +153,6 @@ img {
     font-weight: var(--font-medium);
 }
 
-
 .button:hover {
     background-color: var(--title-color-dark);
 }
@@ -166,6 +164,21 @@ img {
 .button--flex {
     display: inline-flex;
     align-items: center;
+}
+
+/* ================== ScrollBar =================== */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: var(--body-color);
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: var(--body-color);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: var(--title-color);
 }
 
 /*  =================== BREAKPOINTS =============== */
@@ -186,7 +199,6 @@ img {
     }
 }
 
-
 /* Medium */
 @media screen and (max-width: 768px) {
     body {
@@ -200,23 +212,19 @@ img {
     .section__subtitle {
         margin-bottom: var(--mb-3);
     }
-
-    
 }
 
-
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+}
 
 /* Small */
 @media screen and (max-width: 350px) {
     :root {
         --big-font-size: 2.25rem;
     }
-    
+
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
     }
-
-
 }

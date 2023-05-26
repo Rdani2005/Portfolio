@@ -15,7 +15,7 @@ const Frontend: FC = (): JSX.Element => (
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
-                        <h3 className="skills__name">CSS</h3>
+                        <h3 className="skills__name">CSS 3</h3>
                         <span className="skills__level">Advanced</span>
                     </div>
                 </div>
@@ -52,14 +52,14 @@ const Frontend: FC = (): JSX.Element => (
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
-                        <h3 className="skills__name">Git</h3>
+                        <h3 className="skills__name">Flutter</h3>
                         <span className="skills__level">Advanced</span>
                     </div>
                 </div>
                 <div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     <div className="">
-                        <h3 className="skills__name">MUI</h3>
+                        <h3 className="skills__name">Svelve</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                 </div>

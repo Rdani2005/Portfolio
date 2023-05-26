@@ -8,6 +8,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Qualification from "./components/qualification/Qualification";
 import Scroll from "./components/scroll/Scroll";
+import Works from "./components/works/Works";
 
 const App: FC = (): JSX.Element => {
     return (
@@ -18,11 +19,12 @@ const App: FC = (): JSX.Element => {
                 <About />
                 <Skills />
                 <Services />
-                <Qualification></Qualification>
+                <Qualification />
+                <Works />
                 <Contact />
             </main>
             <Footer />
-            <Scroll></Scroll>
+            <Scroll />
         </>
     );
 };
