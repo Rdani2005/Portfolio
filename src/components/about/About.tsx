@@ -61,7 +61,7 @@ const About: FC = (): JSX.Element => {
                                 fill="var(--container-color)"
                             ></path>
                         </svg>
-                        Descargar CV
+                        Download CV
                     </a>
                 </div>
             </div>
