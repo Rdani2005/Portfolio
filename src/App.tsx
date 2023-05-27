@@ -9,6 +9,7 @@ import Footer from "./components/footer/Footer";
 import Qualification from "./components/qualification/Qualification";
 import Scroll from "./components/scroll/Scroll";
 import Works from "./components/works/Works";
+import Testimonials from "./components/testimonials/Testimonials";
 
 const App: FC = (): JSX.Element => {
     return (
@@ -21,6 +22,7 @@ const App: FC = (): JSX.Element => {
                 <Services />
                 <Qualification />
                 <Works />
+                <Testimonials />
                 <Contact />
             </main>
             <Footer />

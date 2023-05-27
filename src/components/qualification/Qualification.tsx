@@ -102,6 +102,29 @@ const Qualification: FunctionComponent = () => {
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">
+                                    Freelance Web Developer
+                                </h3>
+                                <span className="qualification__subtitle">
+                                    Freelancer - Costa Rica
+                                </span>
+                                <div className="qualification__calender">
+                                    <i className="uil uil-calendar-alt"></i>2023
+                                    - Present
+                                </div>
+                            </div>
+                            <div className="">
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div className="qualification__data">
+                            <div></div>
+                            <div className="">
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 className="qualification__title">
                                     Web Developer
                                 </h3>
                                 <span className="qualification__subtitle">
@@ -111,10 +134,6 @@ const Qualification: FunctionComponent = () => {
                                     <i className="uil uil-calendar-alt"></i>2022
                                     - Present
                                 </div>
-                            </div>
-                            <div className="">
-                                <span className="qualification__rounder"></span>
-                                <span className="qualification__line"></span>
                             </div>
                         </div>
                     </div>
