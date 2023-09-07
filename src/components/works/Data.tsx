@@ -31,9 +31,9 @@ export const projectsData: ProjectModel[] = [
     {
         id: 4,
         image: "https://i.ibb.co/4Jgr8XP/la-floresta.jpg",
-        title: "Finca La Floresta",
+        title: "Finca Flora y Fauna",
         category: "Design",
-        demo: "https://www.figma.com/file/r2dJssDZO09fY84eT5nd1C/La-Floresta?type=design&node-id=0-1 ",
+        demo: "https://laflorestacr.com/",
     },
 ];
 

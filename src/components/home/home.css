@@ -59,7 +59,7 @@
 }
 
 .home__img {
-    background: url("https://media.licdn.com/dms/image/D4E03AQGjnTsy5UnZhQ/profile-displayphoto-shrink_800_800/0/1681917465221?e=1690416000&v=beta&t=YyqQbbuOIMiWxU6JVeTYvzZDmdDJR-RtDPmRHeEjxF4");
+    background: url(../../assets/me.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

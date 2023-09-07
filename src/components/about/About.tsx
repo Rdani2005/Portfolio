@@ -3,6 +3,7 @@ import { FC } from "react";
 import Info from "./Info";
 
 import CV from "../../assets/CV Daniel Ricardo Sequeira Campos.pdf";
+import aboutMeImg from "../../assets/me.jpg";
 
 const About: FC = (): JSX.Element => {
     return (
@@ -11,13 +12,7 @@ const About: FC = (): JSX.Element => {
             <span className="section__subtitle">My Introduction</span>
 
             <div className="about__container container grid">
-                <img
-                    src={
-                        "https://media.licdn.com/dms/image/D4E03AQGjnTsy5UnZhQ/profile-displayphoto-shrink_800_800/0/1681917465221?e=1690416000&v=beta&t=YyqQbbuOIMiWxU6JVeTYvzZDmdDJR-RtDPmRHeEjxF4"
-                    }
-                    alt="Me"
-                    className="about__img"
-                />
+                <img src={aboutMeImg} alt="Me" className="about__img" />
                 <div className="about__data">
                     <Info />
                     <div className="about__description">
