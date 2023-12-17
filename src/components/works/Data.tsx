@@ -12,7 +12,7 @@ export const projectsData: ProjectModel[] = [
         image: "https://i.ibb.co/QD5Y40b/krypto.png",
         title: "Krypto",
         category: "Web",
-        demo: "https://krypto.rdani2005.works/",
+        demo: "https://krypto.rdani2005.com/",
     },
     {
         id: 2,
